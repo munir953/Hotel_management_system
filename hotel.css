@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+.navlist {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+}
+
+li {
+    padding: 10px;
+}
+
+li a {
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: larger;
+}
+
+li:hover {
+    background-color: rgba(153, 153, 153, 0.534);
+    padding: 10px;
+    transition: 0.55s;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.nav {
+    background: linear-gradient(rgba(20, 116, 180, 0.349), rgba(18, 111, 172, 0.342));
+    height: 150px;
+    width: 100%;
+    box-shadow: 10px 10px 5px black;
+}
+
+.mainn {
+    display: flex;
+}
+
+.main {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/vojtech-bruzek-Yrxr3bsPdS0-unsplash.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.welcome {
+    color: rgba(255, 255, 255, 0.473);
+}
+
+.usa {
+    color: rgba(248, 141, 65, 0.555);
+    font-size: 26px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    transition: 0.4s;
+}
+
+button {
+    background: linear-gradient(rgba(0, 0, 0, 0.274), rgba(0, 0, 0, 0.267));
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+    margin: 5px;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: rgba(230, 99, 5, 0.938);
+    border-radius: 5px;
+    transition: .55s;
+    border: 0.7px solid white;
+    font-weight: 600;
+}
+
+.container {
+    padding: 100px 100px;
+}
+
+.front-image img {
+    margin-top: 90px;
+    border-radius: 40%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
